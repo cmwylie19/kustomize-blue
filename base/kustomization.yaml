@@ -1,0 +1,10 @@
+
+configMapGenerator:
+- name: example-configmap-1
+  envs:
+  - .env
+resources:
+- deployment.yaml
+
+commonLabels:
+  deployed-by: cmwylie19
